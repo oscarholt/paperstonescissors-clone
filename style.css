@@ -1,0 +1,247 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption {
+  margin: 0;
+  padding: 0;
+}
+
+.fixed {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.nav {
+  position: absolute;
+  top: 5%;
+  left: 4%;
+  font-family: Untitled Sans, Helvetica, sans-serif;
+}
+
+.navlink {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+}
+
+.nav p {
+  font-family: Untitled Sans, Helvetica, sans-serif;
+  color: white;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav ul li a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  position: absolute;
+  bottom: 5%;
+  left: 4%;
+  font-family: Untitled Sans, Helvetica, sans-serif;
+  color: white;
+}
+
+.hero {
+  background-color: #386fa4;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+}
+
+.hero p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.pagelink {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.pagelink a {
+  font-family: Feijoa OT, Georgia, Times New Roman, Times, serif;
+  color: white;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.job1,
+.job2,
+.job3,
+.job4 {
+  width: 100vw;
+  height: 90vh;
+  display: block;
+  position: relative;
+}
+
+.job1 {
+  background-color: #133c55;
+}
+
+.job2 {
+  background-color: #59a5d8;
+}
+
+.job3 {
+  background-color: #91e5f6;
+}
+
+.job4 {
+  background-color: #133c55;
+}
+
+.jobtitle {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.titlefont {
+  font-family: Untitled Sans, Helvetica, sans-serif;
+  color: white;
+  font-size: 116px;
+  line-height: 116px;
+  letter-spacing: -4px;
+  font-weight: 400;
+}
+
+.blocktitle {
+  font-family: Feijoa OT, Georgia, Times New Roman, Times, serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -1px;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.5px;
+  font-family: Untitled Sans, Helvetica, sans-serif;
+}
+
+.mr2 {
+  font-size: 24px;
+  font-family: Feijoa OT, Georgia, Times New Roman, Times, serif;
+  margin-right: 0.25%;
+}
+
+.explore a {
+  color: black;
+  text-decoration: none;
+}
+
+.subheading {
+  font-size: 62px;
+  line-height: 70px;
+  letter-spacing: -3px;
+  font-family: Untitled Sans, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+.newsletter {
+  background-color: #b6bea0;
+}
+
+.newsletter h1 {
+  color: black;
+}
+
+.hrule {
+  width: 10%;
+  margin-left: 0;
+}
+
+.getintouch {
+  color: white;
+  background-color: black;
+}
+
+.getintouch a {
+  color: white;
+}
+
+.h3 {
+  font-family: Untitled Sans, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: #206343;
+}
+
+.footer a {
+  font-family: Untitled Sans, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
