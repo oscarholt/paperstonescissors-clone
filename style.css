@@ -1,3 +1,96 @@
+@font-face {
+  font-family: 'apparatbold';
+  src: url('./resources/apparat-bold-webfont.woff2') format('woff2'),
+       url('./resources/apparat-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'apparatmedium';
+  src: url('./resources/apparat-medium-webfont.woff2') format('woff2'),
+       url('./resources/apparat-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'apparatregular';
+  src: url('./resources/apparat-regular-webfont.woff2') format('woff2'),
+       url('./resources/apparat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'apparatsemibold';
+  src: url('./resources/apparat-semibold-webfont.woff2') format('woff2'),
+       url('./resources/apparat-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'dinosaur-lightuploaded_file';
+  src: url('./resources/dinosaur-light-webfont.woff2') format('woff2'),
+       url('./resources/dinosaur-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'dinosaur-bolduploaded_file';
+  src: url('./resources/dinosaur-bold-webfont.woff2') format('woff2'),
+       url('./resources/dinosaur-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'quasimodaw03-mediumregular';
+  src: url('./resources/quasimoda_medium-webfont.woff2') format('woff2'),
+       url('./resources/quasimoda_medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'quasimodalight';
+  src: url('./resources/quasimoda-light-webfont.woff2') format('woff2'),
+       url('./resources/quasimoda-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 html,
 body,
 div,
@@ -164,6 +257,9 @@ a {
 
 .titlefont {
   font-family: Untitled Sans, Helvetica, sans-serif;
+  /* font-family: 'apparatregular'; */
+  /* font-family: 'dinosaur-lightuploaded_file'; */
+  /* font-family: 'quasimodalight'; */
   color: white;
   font-size: 116px;
   line-height: 116px;
